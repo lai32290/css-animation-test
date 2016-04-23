@@ -8,6 +8,7 @@ html {
 }
 .country {
   height: 100%;
+  overflow: hidden;
 }
 #bulgaria.start-animation > div {
   height: 33.333333333%;
