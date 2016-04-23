@@ -1,0 +1,30 @@
+$height = 33.333333333%
+
+#bulgaria.start-animation
+  & > div
+    height: $height
+
+  #div1
+    background-color: white
+  #div2
+    background-color: #00966e
+    animation bulgaria-animation1 .8s
+  #div3
+    background-color: #d62612
+    animation bulgaria-animation2 .8s
+
+@keyframes bulgaria-animation1
+  0%
+    transform translateX(-2000px)
+  50%, 100%
+    transform translateX(0)
+  60%
+    transform translateX(-100px)
+
+@keyframes bulgaria-animation2
+  0%
+    transform scale(0)
+  50%, 100%
+    transform scale(1)
+  75%
+    transform scale(0.8)

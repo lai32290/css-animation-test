@@ -1,0 +1,24 @@
+{
+  "name": "css-animation-test",
+  "version": "0.0.0",
+  "description": "ERROR: No README data found!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lai32290/css-animation-test.git"
+  },
+  "author": "",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/lai32290/css-animation-test/issues"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "~3.9.1",
+    "gulp-include": "~2.1.0",
+    "gulp-clean": "~0.3.2"
+  }
+}

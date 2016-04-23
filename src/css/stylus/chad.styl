@@ -1,0 +1,29 @@
+$width = calc((100%/3))
+
+#chad.start-animation
+  & >div
+    width: $width
+    height 100%
+    display inline-block
+
+  #div1
+    background-color #002664
+    animation chad-animation1 .4s
+  #div2
+    background-color #fecb00
+  #div3
+    background-color #c60c30
+    animation chad-animation2 .5s
+    animation-delay .4s
+
+@keyframes chad-animation1
+  0%
+    transform translateX(-1000px)
+  100%
+    transform translateX(0px)
+
+@keyframes chad-animation2
+  0%, 100%
+    transform translateX(0px)
+  50%
+    transform translateX(100px)

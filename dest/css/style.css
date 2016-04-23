@@ -1,0 +1,194 @@
+* {
+  box-sizing: border-box;
+}
+body,
+html {
+  margin: 0px;
+  height: 100%;
+}
+.country {
+  height: 100%;
+}
+#bulgaria.start-animation > div {
+  height: 33.333333333%;
+}
+#bulgaria.start-animation #div1 {
+  background-color: #fff;
+}
+#bulgaria.start-animation #div2 {
+  background-color: #00966e;
+  animation: bulgaria-animation1 0.8s;
+}
+#bulgaria.start-animation #div3 {
+  background-color: #d62612;
+  animation: bulgaria-animation2 0.8s;
+}
+@-moz-keyframes bulgaria-animation1 {
+  0% {
+    transform: translateX(-2000px);
+  }
+  50%, 100% {
+    transform: translateX(0);
+  }
+  60% {
+    transform: translateX(-100px);
+  }
+}
+@-webkit-keyframes bulgaria-animation1 {
+  0% {
+    transform: translateX(-2000px);
+  }
+  50%, 100% {
+    transform: translateX(0);
+  }
+  60% {
+    transform: translateX(-100px);
+  }
+}
+@-o-keyframes bulgaria-animation1 {
+  0% {
+    transform: translateX(-2000px);
+  }
+  50%, 100% {
+    transform: translateX(0);
+  }
+  60% {
+    transform: translateX(-100px);
+  }
+}
+@keyframes bulgaria-animation1 {
+  0% {
+    transform: translateX(-2000px);
+  }
+  50%, 100% {
+    transform: translateX(0);
+  }
+  60% {
+    transform: translateX(-100px);
+  }
+}
+@-moz-keyframes bulgaria-animation2 {
+  0% {
+    transform: scale(0);
+  }
+  50%, 100% {
+    transform: scale(1);
+  }
+  75% {
+    transform: scale(0.8);
+  }
+}
+@-webkit-keyframes bulgaria-animation2 {
+  0% {
+    transform: scale(0);
+  }
+  50%, 100% {
+    transform: scale(1);
+  }
+  75% {
+    transform: scale(0.8);
+  }
+}
+@-o-keyframes bulgaria-animation2 {
+  0% {
+    transform: scale(0);
+  }
+  50%, 100% {
+    transform: scale(1);
+  }
+  75% {
+    transform: scale(0.8);
+  }
+}
+@keyframes bulgaria-animation2 {
+  0% {
+    transform: scale(0);
+  }
+  50%, 100% {
+    transform: scale(1);
+  }
+  75% {
+    transform: scale(0.8);
+  }
+}
+#chad.start-animation >div {
+  width: calc((100% / 3));
+  height: 100%;
+  display: inline-block;
+}
+#chad.start-animation #div1 {
+  background-color: #002664;
+  animation: chad-animation1 0.4s;
+}
+#chad.start-animation #div2 {
+  background-color: #fecb00;
+}
+#chad.start-animation #div3 {
+  background-color: #c60c30;
+  animation: chad-animation2 0.5s;
+  animation-delay: 0.4s;
+}
+@-moz-keyframes chad-animation1 {
+  0% {
+    transform: translateX(-1000px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
+@-webkit-keyframes chad-animation1 {
+  0% {
+    transform: translateX(-1000px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
+@-o-keyframes chad-animation1 {
+  0% {
+    transform: translateX(-1000px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
+@keyframes chad-animation1 {
+  0% {
+    transform: translateX(-1000px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
+@-moz-keyframes chad-animation2 {
+  0%, 100% {
+    transform: translateX(0px);
+  }
+  50% {
+    transform: translateX(100px);
+  }
+}
+@-webkit-keyframes chad-animation2 {
+  0%, 100% {
+    transform: translateX(0px);
+  }
+  50% {
+    transform: translateX(100px);
+  }
+}
+@-o-keyframes chad-animation2 {
+  0%, 100% {
+    transform: translateX(0px);
+  }
+  50% {
+    transform: translateX(100px);
+  }
+}
+@keyframes chad-animation2 {
+  0%, 100% {
+    transform: translateX(0px);
+  }
+  50% {
+    transform: translateX(100px);
+  }
+}

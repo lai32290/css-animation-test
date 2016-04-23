@@ -1,0 +1,8 @@
+.row {
+    width: 100%;
+    display: flex;
+}
+
+.row > div {
+    flex: 1 1 100%;
+}
